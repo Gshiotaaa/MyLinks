@@ -6,8 +6,8 @@ themeSelector.onclick = () => {
   themeClass.classList.toggle("light");
 
   if (themeClass.classList.contains("light")) {
-    imgTheme.src = "https://avatars.githubusercontent.com/u/54602228?v=4";
-    imgTheme.alt = "Este cidadão é putaozão";
+    imgTheme.src = "./assets/light-img-profile.png";
+    imgTheme.alt = "Gabriel sorrindo, camisa preta e dentro de um carro";
   } else {
     imgTheme.src = "https://avatars.githubusercontent.com/u/117778237?v=4";
   }
