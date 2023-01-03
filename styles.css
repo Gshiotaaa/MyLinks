@@ -44,7 +44,8 @@ body {
   margin: 56px auto 0;
 
   padding: 0 24px;
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
 }
 
 .profileInfos {
@@ -176,15 +177,5 @@ footer {
 @media (min-width: 768px) {
   body {
     background: var(--bg-url-web) no-repeat center/cover;
-  }
-
-  .container {
-    width: 588px;
-  }
-}
-
-@media (max-width: 359px) {
-  .container {
-    width: 100%;
   }
 }
